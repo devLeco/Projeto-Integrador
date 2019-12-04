@@ -1,0 +1,107 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cadastro</title>
+    <script src="js/bancoDados.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/cadastro.css">
+    <link rel="stylesheet"  type="text/css" href="./css/style1.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  </head>
+
+  <body>
+  <header>
+    <section class="menu-principal">
+      <a href="index.html"><img id="logo" src="img/logo.png" alt="logomarca do site"></a>
+      <div class="redes-sociais">
+        <ul>
+          <li><a href=""><img src="./img/insta1.png" title="Assine nosso feed"/></a></li>
+          <li><a href=""><img src="./img/insta2.png"/></a></li>
+          <li><a href=""><img src="./img/insta3.png"/></a></li>
+          <li><a href=""><img src="./img/insta4.png"/></a></li>
+        </ul>
+      </div>
+    </section>
+
+  <main>
+    <div class="ladoLado">
+      <div id="cadastro">
+        <form method="post" action="" >
+          <h1>Cadastro</h1>
+          <p>
+            <label for="nome"> Nome: </label>
+            <input type="text" id="nome" name="novoNome">
+          </p>
+
+          <p>
+            <label for="sobrenome"> Sobrenome : </label>
+            <input type="text" id="sobrenome" name="novoSobrenome">
+          </p>
+
+          <p>
+            <label for="senha">Senha(8 caracteres no mínimo):</label>
+            <input type="password" id="senha" name="password" placeholder="Exemplo: Labcde7@"
+                   minlength="8" required>
+          </p>
+          <p>
+            <label for="tel"> Telefone: </label>
+            <input type="text" id="tel" placeholder="9999-9999 ou 9999-99999" name="novoTel">
+          </p>
+          <p>
+            <label for="email"> Email: </label>
+            <input type="email" id="email" name="novoTel" placeholder="Exemplo email@email.com">
+          </p>
+          <p>
+            <label for="endereco"> Endereço: </label>
+            <input type="text" id="endereco" name="novoTel">
+          </p>
+
+          <p>
+            <label for="idade"> Idade: </label>
+            <input type="text" id="idade" name="novoTel">
+          </p>
+          <p>
+            <input type="button" onclick="cadastrarNovoUsuario()" value="Cadastrar">
+          </p>
+        </form>
+      </div>
+      <table class="highlight"  id="código">
+      </table>
+    </div>
+  </main>
+
+  <footer class="footer-fixed" id="footer">
+    <div class="tamanho">
+      <div class="texto4"> 
+        <p>Entregas</p>
+        <ul>
+          <li><a href="resumo.html#clie"> Para clientes</a></li>
+          <li><a href="resumo.html#emp"> Para Empresas</a></li>
+          <li><a href="resumo.html#rest"> Para Restaurantes</a></li>
+        </ul>
+      </div>
+      <div class="contato">
+        <p>Contato</p>
+        <div class="buto3">
+          <a href="Contato.html"><input type="button"value="Entre em contato!"></a> 
+        </div>
+      </div>
+      
+      <div class="redes2">
+        <div class="redes-sociais2">
+          <p>Redes Sociais</p>
+          <ul>
+            <li><a href=""><img src="./img/insta1.png"/></a></li>
+            <li><a href=""><img src="./img/insta2.png"/></a></li>
+            <li><a href=""><img src="./img/insta3.png"/></a></li>
+            <li><a href=""><img src="./img/insta4.png"/></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>  
+  </footer> 
+
+  </body>
+</html>
+

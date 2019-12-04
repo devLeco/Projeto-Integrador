@@ -1,0 +1,611 @@
+@charset "utf-8";
+/* -------------------------------------------- */
+/* Padrão do site em todas as versões e páginas */
+/* -------------------------------------------- */
+/* -------------------------------------------- */
+
+body, div, h1, h2,
+p, blockquote, pre, dl, dt, dd, ol, hr,
+fieldset, form, legend, th, td, fieldset, form,
+article, aside, figure, figcaption, footer, header, hgroup, menu, nav, section,
+summary, hgroup, #footer ul, #footer li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.ladoLado{
+	display: inline-flex;
+	width: 95%;
+}
+/*---------menu--------*/
+.menu-principal {	
+	width: 100%;
+	background-color: #252323;		
+}
+#logo {
+    padding: 1.2%;
+    box-sizing: border-box;
+}
+.redes-sociais {	
+	width: 20%;
+	float: right;    
+}
+.redes-sociais ul li {	
+	display: inline-block;
+	list-style:none;
+	margin-left: 10%;
+}
+.header-2 {	
+	background-color: #ffffff;
+	width: 80%;
+	margin: 0 auto;
+	padding:1%;	
+	box-sizing: border-box;
+}
+.menu-urls  {
+	border-bottom: 3px solid #efefef;
+	height: 80px;
+}
+.menu ul li {	
+	display: inline-block;
+	margin-left: 3%;
+	color: #8b8b8b;	
+}
+.menu ul li:hover  {
+	border-bottom: 2px solid  #00bac6;
+	height: 45px;
+}
+.menu ul li a:hover {	
+	color: #00bac6;
+}
+.menu ul li a {	
+	color: #8b8b8b;
+	font-size: 18px;
+	text-decoration: none;
+}		
+.menu{
+	width: 60%; 	
+	float: left; 
+}
+.login{
+	width: 20%;
+    float: right;
+    text-align: right;
+}
+.login input {
+	border: 1px solid #d6d6d6;
+	margin-top: 1%;
+}
+.buto0 {
+	float: left;
+	padding:1%;
+	box-sizing: border-box;
+	margin-left:15%;
+}
+.buto0 input, .buto input {
+	background: red;
+	border: transparent;
+	color: white;
+}
+.buto0 input:hover, .buto input:hover, .buto2 input:hover, .texto4 ul li a:hover, .buto3 input:hover{
+	background: rgb(107, 0, 0);	
+}
+.buto {
+	float: right;
+	padding:1%;
+	box-sizing: border-box;
+}
+.busca {
+	width: 20%;
+    float: left;
+    text-align: right;
+}
+.busca input {
+	margin-top:7px;
+	padding:3%;
+	box-sizing: border-box;
+    height:36px;
+	width:100%;
+	background-image: url('../img/busca.png');
+	background-repeat: no-repeat;
+	background-position:96%;
+	border: 1px solid #d6d6d6;	
+}
+
+main {
+	width: 100%;	
+}
+
+/*--light-box--*/
+.col-100  {
+	width:100%;
+	float:left;
+	position:relative;		
+}
+.slider-principal {
+	height: 454px;
+	width: 100%;
+}
+button.slick-prev {
+	font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+	background-color: transparent;
+	background-image: url('../img/anterior.png');
+	position: absolute;
+    z-index: 9;
+	top: 40%;
+	left: 14%;
+}
+button.slick-next {
+	font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+	background-color: transparent;
+	background-image: url('../img/seguinte.png');
+	position: absolute;
+    z-index: 9;
+	top: 40%;
+	right: 14%;
+}
+.slick-list {
+	width: 100%!important;
+}
+.slick-initialized {
+	overflow:hidden;
+}
+.slick-dots li {
+	display: inline-block;
+	padding-left: 6px;
+}
+.slick-dots {
+	margin: 0 auto; 
+	width: 50%;
+	position: absolute;
+	left: 46%;
+	top:90%;
+}
+.slick-dots li button {
+	font-size: 0px;
+	border: 5px solid #ffffff;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	border-radius: 50%;
+	cursor: pointer;
+}
+li.slick-active button {
+	background: #00bac6;
+}
+
+.texto1 {
+	float: left;
+	width: 100%;
+	height: 50px;
+	margin-top: 10px;
+	position: relative;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-top: 30px;
+}
+
+.planos {
+	float: left;
+	width: 100%;
+	position:relative;
+	margin-top: 30px;
+}
+
+.planos-imagens {
+	height: 505px;
+}
+
+.planos-imagens ul{
+    text-align: center;
+}
+
+.planos-imagens ul li{
+    display: inline-block;
+    list-style: none;
+	margin-right: 25px;
+	margin-left: 20px;
+}
+
+.planos-imagens ul li img:hover {
+	width: 103%;
+}
+
+.texto2 {
+	float: left;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 40px;
+}
+
+.saiba{
+	width: 100%;
+	text-align: center;
+	margin-top: 15px;
+	float: left;
+	position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+
+.buto2 {
+	position: absolute;
+	margin: 0 auto;
+	left: 313px;
+    top: 75%;
+}
+
+.buto2 input {
+	height:55px;
+	width:240px;
+	background: red;
+	border: transparent;
+	color: white;
+	font-size: 25px;	
+}
+
+.footer-fixed {
+	width: 100%;
+	background-color: #252323;
+	height: 200px;	
+	float: left;
+	margin-top: 50px;
+}
+
+.tamanho {
+	margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.texto4 {
+	width: 30%;
+	text-align: center;
+	padding: 15px;
+	font-size: 25px;
+	float: left;	
+}
+
+.texto4 a {
+	text-decoration: none;
+	color: white;
+}
+
+.texto4 ul li {
+	color: white;
+	margin-top: 10px;
+	font-size: 25px;
+	list-style-type: none;
+}
+
+.contato {
+	width: 30%;
+	text-align: center;
+	padding: 15px;
+	font-size: 25px;
+	float: left;
+}
+
+.contato a {
+	color: white;
+}
+
+.buto3 {
+	position: absolute;
+	margin: 0 auto;
+	left: 366px;
+    top: 90px;
+}
+
+.buto3 input {
+	height:55px;
+	width:240px;
+	background: red;
+	border: transparent;
+	color: white;
+	font-size: 25px;	
+}
+
+.redes2 {
+	width: 30%;
+	text-align: center;
+	padding: 15px;
+	float: left;
+}
+
+.redes-sociais2 a {
+	color: white;
+	font-size: 25px;	
+
+}
+.redes-sociais2 ul li {	
+	display: inline-block;
+    list-style: none;
+    margin-left: 15px;
+    margin-right: 15px; 
+}
+
+.redes-sociais2 ul {	
+	margin-top: 45px;  
+}
+
+.contatotudo {
+	width: 100%;
+    float: left;
+	position: relative;
+	margin-top: 50px;
+}
+
+.dentro {
+	width: 980px;
+    margin: 0 auto;
+}
+
+.imagemcontato {
+	  float: left;
+	  width: 50%;
+	  text-align: center;
+}
+
+.suporte {
+	width: 50%;
+	float: left;
+}
+
+.empresa1 {
+	width: 100%;
+    float: left;
+	position: relative;
+}
+
+.imagemempresa {
+	width: 100%;
+	float: left;
+}
+
+.texto45 {
+	width: 100%;
+	text-align: left;
+	margin-top: 30px;
+	float: left;
+}
+
+.texto55 {
+	float: left;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	
+	
+}
+.texto56 {
+	float: left;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 30px;
+	margin-top: 50px;
+}
+input[type="submit"]:hover{
+	background: #4ab3c6;
+}
+
+#cadastro,
+#login{
+	position: relative;
+	top: 0px;
+	float: left;
+	width: 30%;
+	padding: 18px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+
+	-webkit-box-shadow: 5px;
+	border-radius: 5px;
+
+	-webkit-animation-duration: 0.5s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+
+	animation-duration: 0.5s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;
+}
+
+#paracadastro:target ~ .content #cadastro,
+#paralogin:target ~ .content #login{
+	z-index: 20;
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+
+	-webkit-animation-delay: .1s;
+	animation-delay: .1s;
+}
+#registro:target ~ .content #login,
+#paralogin:target ~ .content #cadastro{
+	-webkit-animation-name: fadeOutLeft;
+	animation-name: fadeOutLeft;
+}
+/*fadeInLeft*/
+@-webkit-keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		-webkit-transform: translateX(-20px);
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+}
+
+@keyframes fadeInLeft {
+	0% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+/*fadeOutLeft*/
+@-webkit-keyframes fadeOutLeft {
+	0% {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+	}
+	100% {
+		opacity: 0;
+		-webkit-transform: translateX(-20px);
+	}
+}
+
+@keyframes fadeOutLeft {
+	0% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+	100% {
+		opacity: 0;
+		transform: translateX(-20px);
+	}
+}
+
+/*marcando os links para mudar de um formulário para outro */
+.link{
+	position: absolute;
+	background: #e1eaeb;
+	color: #7f7c7c;
+	left: 0px;
+	height: 20px;
+	width: 440px;
+	padding: 17px 30px 20px 30px;
+	font-size: 16px;
+	text-align: right;
+	border-top: 1px solid #dbe5e8;
+
+	-webkit-border-radius: 0 0  5px 5px;
+	border-radius: 0 0  5px 5px;
+}
+.link a {
+	font-weight: bold;
+	background: #f7f8f1;
+	padding: 6px;
+	color: darkred;
+	margin-left: 10px;
+	border: 1px solid #cbd518;
+
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s  linear;
+}
+.link a:hover {
+	color: darkred;
+	background: #f7f7f7;
+	border: 1px solid #4ab3c6;
+}
+/* esconde as ancoras da tela */
+a.links{
+	display: none;
+}
+
+/* content que contem os formulários */
+.content{
+	width: 500px;
+	margin: 0px auto;
+	position: relative;
+}
+
+/* formatando o cabeçalho dos formulários */
+h1{
+	font-size: 48px;
+	color: darkred;
+	padding: 10px 0;
+	font-family: Arial,sans-serif;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 30px;
+}
+h1:after{
+	content: ' ';
+	display: block;
+	width: 100%;
+	height: 2px;
+	margin-top: 10px;
+	background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+	background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%);
+}
+
+table{
+	display: flex;
+	color: black;
+	margin-left: 1%;
+	margin-right: 1%;
+
+}
+th a{
+	color: darkred;
+}
+p{
+	margin-bottom:15px;
+}
+p:first-child{
+	margin: 0px;
+}
+label{
+	color: #405c60;
+	position: relative;
+}
+
+/**** advanced input styling ****/
+/* placeholder */
+::-webkit-input-placeholder  {
+	color: #bebcbc;
+	font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{
+	color: #bebcbc;
+	font-style: italic;
+}
+input {
+	outline: none;
+}
+
+
+
+/*estilo do botão submit */
+input[type="button"]{
+	width: 100%!important;
+	cursor: pointer;
+	background: red;
+	padding: 8px 5px;
+	color: #fff;
+	font-size: 20px;
+	border: 1px solid #fff;
+	margin-bottom: 10px;
+	text-shadow: 0 1px 1px #333;
+
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+	transition: all 0.2s linear;
+}
